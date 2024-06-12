@@ -1,0 +1,662 @@
+*{
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+
+body{
+    height: 4 50vh;
+    background: linear-gradient(#f0a1a1, #8c91ca);
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-weight: normal;
+    font-style: normal;
+    
+}
+.box{
+    width: 50%;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+nav{
+    width: 60%;
+    height: 70px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.feedback-form, .feedback-list {
+    background: white;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 300px;
+}
+.feedback-form h2, .feedback-list h2 {
+    margin-bottom: 20px;
+}
+.feedback-form input,
+.feedback-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.feedback-form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #5cb85c;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.feedback-form button:hover {
+    background-color: #4cae4c;
+}
+.feedback-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+.feedback-item:last-child {
+    border-bottom: none;
+}
+.feedback-item p {
+    margin: 0;
+}
+.nav_text{
+    width: 40%;
+    height: 70px;
+    font-size: 18px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav_logo{
+    width: 6%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header{
+    margin-top: 100px;
+    width: 90%;
+    height: 550px;
+    border-bottom: 1px solid black;
+}
+header .p1{
+    font-size:23px;
+}
+header .p2{
+    font-size:23px;
+}
+main{
+    width: 90%;
+    margin-top: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-bottom: 1px solid black;
+
+}
+.pr1{
+    width: 100%;
+    height: 500px;
+    color: #555;
+    display: flex;
+   
+    transition: transform 0.2s;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.pr1:hover {
+    transform: scale(1.05);
+    background: white;
+    border-radius: 10px;
+
+}
+.pr1 .phone1:hover{
+    border: 2px solid black;
+}
+.pr1 .phone2:hover{
+    border: 2px solid black;
+}
+.pr1 .phone3:hover{
+    border: 2px solid black;
+}
+.pr1 .phone4:hover{
+    border: 2px solid black;
+}
+.pr1_text{
+    display: flex;
+    width: 50%;
+    height: 600px;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 100px;
+    align-items: center;
+}
+.pr1_video{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+.p3_pr{
+  
+    width: 100%;
+}
+.p_pr1{
+    width: 100%;
+    font-size: 18px;
+    padding: 10px;
+    border-top: 2px solid black;
+    border-right: 2px solid black;
+}
+.phoneP{
+    width: 63%;
+    height: 400px;
+    border-radius: 20px;
+    
+}
+.phone1{
+    width: 70%;
+    height: 400px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: top;
+    background-image: url(../img/_C__Users_lesha_OneDrive_2cat_energy_index.html.png);
+}
+.phone2{
+    width: 70%;
+    height: 400px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: center;
+    background-image: url(../img/_C__Users_lesha_OneDrive_.html.png);
+}
+.phone3{
+    width: 70%;
+    height: 400px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: 130%;
+    background-position: top;
+    background-image: url(../img/_C__Users_kompschool__index.html.png);
+}
+.phone4{
+    width: 70%;
+    height: 400px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    background-image: url(../img/_C__Users_lesha_OneDrive1__index.html.png);
+}
+video{
+    width: 100%;
+    height: 400px;
+    border-radius: 20px;
+
+}
+
+ footer{
+    width: 100%;
+    height: 100px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+ }
+ footer div{
+    width: 50%;
+ }
+ .name{
+    text-align: right;
+    font-size: 25px;
+
+ }
+ .conacts{
+    font-size: 18px;
+    display: flex;
+   
+ }
+ html{
+    scroll-behavior: smooth;
+ }
+ .reviews-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+    justify-content: center;
+}
+
+.review {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.2s;
+    flex: 1 1 calc(50% - 40px); 
+    max-width: calc(50% - 40px);
+    box-sizing: border-box;
+}
+
+.review:hover {
+    transform: scale(1.05);
+}
+
+.review-text {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.review-author {
+    font-size: 14px;
+    color: #555;
+    text-align: right;
+}
+.skils{
+    width: 100%;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    
+    flex-direction: column;
+    justify-content: left;
+}
+.skils h2{
+    height: 30px;
+    width: 100%;
+    text-align: center;
+}
+/* .sk_1{
+    width: 40%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;    
+} */
+.sk_2{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 40px;
+}
+.sk_html{
+    width: 80%;
+    height: 25px;
+    background: gainsboro;
+    border-radius:   50px;
+
+    display: flex;
+    flex-direction: row;
+}
+.sk_text{
+    width: 20%;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius:   50px 0px 0px 50px;
+    text-align: center;
+    background: #477eb6;
+    color: white;
+}
+.sk_text img{
+    width: 15%;
+    margin-left: 10px;
+}
+.sk_skill{
+    width: 70%;
+    
+    border-radius:   0px 50px 50px 0px;
+    height: 25px;
+    animation: shrink 2s forwards;
+    background: #ab8ac0;
+}
+
+.sk_skill1{
+    width: 70%;
+    border-radius:   0px 50px 50px 0px;
+    animation: shrink1 2s forwards;
+    height: 25px;
+    background: #ab8ac0;
+}
+.sk_skill2{
+    width: 60%;
+    height: 25px;
+    border-radius:   0px 50px 50px 0px;
+    animation: shrink2 2s forwards;
+    background: #ab8ac0;
+}
+.sk_skill3{
+    width: 50%;
+    animation: shrink3 2s forwards;
+    height: 25px;
+    background: #ab8ac0;
+    border-radius:   0px 50px 50px 0px;
+
+}
+.sk_skill4{
+    width: 40%;
+    height: 25px;
+    border-radius:   0px 50px 50px 0px;
+    animation: shrink4 2s forwards;
+    background: #ab8ac0;
+}
+.sk_skill5{
+    width: 30%;
+    border-radius:   0px 50px 50px 0px;
+    animation: shrink5 2s forwards;
+    height: 25px;
+    background: #ab8ac0;
+}
+.sk_skill6{
+    width: 30%;
+    border-radius:   0px 50px 50px 0px;
+    animation: shrink6 2s forwards;
+    height: 25px;
+    background: #ab8ac0;
+}
+.sk_skill7{
+    width: 30%;
+    border-radius:   0px 50px 50px 0px;
+    animation: shrink7 2s forwards;
+    height: 25px;
+    background: #ab8ac0;
+}
+@keyframes shrink {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 79%;
+    }
+}
+@keyframes shrink1 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 79%;
+    }
+}
+@keyframes shrink2 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 70%;
+    }
+}
+@keyframes shrink3 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 68%;
+    }
+}
+@keyframes shrink4 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+@keyframes shrink5 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes shrink6 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 58%;
+    }
+}
+@keyframes shrink7 {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 56%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .box{
+        width: 100%;
+        margin: 0 auto;
+        color: white;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    nav{
+        width: 90%;
+     height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    }
+    .nav_text{
+        width: 100%;
+        
+    }
+    header {
+       height: 900px;
+    }
+    .sk_2{
+        width: 100%;
+        display: flex;
+        
+        flex-direction: column;
+        justify-content: center;
+    }
+    main{
+        width: 100%;
+        
+        display: flex;
+        flex-direction: column;
+
+    }
+   .pr1{
+    width: 100%;
+    height: 500px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+   }
+   .pr1_text{
+    width: 90%;
+    height: 100px;
+    margin-right: 100px;
+    border-right: 0px solid black;
+   }
+   .p_pr1{
+    border-right: 0px solid black;
+
+   }
+   .pr1_video{
+    width: 70%;
+    height: 350px;
+    margin-right: 70px;
+   }
+ .phone1{
+    width: 200%;
+    height: 200px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position: top;
+    background-image: url(../img/_C__Users_lesha_OneDrive_2cat_energy_index.html.png);
+}
+.phone2{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position: top;
+    background-image: url(../img/_C__Users_lesha_OneDrive_.html.png);
+}
+.phone3{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    background-image: url(../img/_C__Users_kompschool__index.html.png);
+}
+.phone4{
+    width: 100%;
+    height: 200px;
+    border-radius: 20px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    background-image: url(../img/_C__Users_lesha_OneDrive1__index.html.png);
+}
+footer{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    align-content: space-between;
+    flex-direction: column-reverse;
+    justify-content: center;
+    color: #333;
+    background: white;
+}
+footer a{
+    color: #333;
+
+}
+.name{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.contacts{
+    width: 100%;
+    display: flex;
+    transition: transform 0.2s;
+    align-items: center;
+    line-height: 30px;
+    flex-direction: column;
+}
+.pr1:hover {
+    transform: scale(1);
+    background: none;
+    border-radius: 0px;
+}
+
+}
+#menu__toggle {
+    opacity: 0;
+  }
+  .menu__btn {
+    display: flex; 
+    align-items: center;  
+    position: fixed;
+    top: 20px;
+    left: 20px;  width: 26px;
+    height: 26px;  cursor: pointer;
+    z-index: 1;
+  }
+  .menu__btn > span,
+  .menu__btn > span::before,
+  .menu__btn > span::after {
+    display: block;
+    position: absolute;  width: 100%;
+    height: 2px;  background-color: #616161;
+
+  }
+  .menu__btn > span::before {
+    content: '';
+    top: -8px;
+  }
+  .menu__btn > span::after {
+    content: '';
+    top: 8px;
+  }
+
+.menu__box {
+    display: block;
+    position: fixed;
+    visibility: hidden;
+    top: 0;
+    left: -100%;  width: 300px;
+    height: 100%;  margin: 0;
+    padding: 80px 0;  list-style: none;
+    text-align: center;  background-color: #ECEFF1;
+    box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+  }
+  .menu__item {
+    display: block;
+    padding: 12px 24px;  color: #333;  font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;  text-decoration: none;
+  }
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+  #menu__toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #menu__toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #menu__toggle:checked ~ .menu__box {
+    visibility: visible;
+    left: 0;
+  }
+  .menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  transition-duration: .25s;
+}.menu__box {
+  transition-duration: .25s;
+}.menu__item {
+  transition-duration: .25s;
+}
