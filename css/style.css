@@ -455,7 +455,7 @@ video{
     }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:480px ) {
     .box{
         width: 100%;
         margin: 0 auto;
@@ -476,7 +476,7 @@ video{
         
     }
     header {
-       height: 900px;
+       height: 750px;
     }
     .sk_2{
         width: 100%;
