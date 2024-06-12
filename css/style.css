@@ -456,8 +456,14 @@ video{
 }
 
 @media screen and (max-width:480px) {
+    *{
+    padding: 0 ;
+    margin: 0 ;
+    box-sizing: border-box;
+}
+
     .box{
-        width: 100%;
+        width: 90%;
         margin: 0 auto;
         color: white;
         display: flex;
@@ -476,7 +482,7 @@ video{
         
     }
     header {
-       height: 750px;
+       height: 900px;
     }
     .sk_2{
         width: 100%;
